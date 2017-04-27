@@ -1,0 +1,9 @@
+<!--pages/scroll-view/scroll-view.wxml-->
+
+<view class="page">
+    <scroll-view class="scroll" scroll-y="{{true}}" scroll-top="100" bindscrolltolower="lower" bindscrolltoupper="upper">
+        <view class="inner"></view>
+    </scroll-view>
+</view>
+
+<!-- 距离顶部或者底部100px时，下拉刷新 -->

@@ -1,0 +1,8 @@
+<!--pages/navigator/navigator.wxml-->
+
+<view class="page"> 
+    <!-- 页面的跳转 -->
+    <navigator url="/pages/icon/icon?title=from_icon&a=1&b=2&c=3">跳转到icon页</navigator>
+    <!-- API的方式跳转 -->
+    <view bindtap="redirect">跳转到icon页</view>
+</view>

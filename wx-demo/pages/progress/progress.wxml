@@ -1,0 +1,4 @@
+<!--pages/progress/progress.wxml-->
+<view class="page">
+    <progress percent="80" active show-info stroke-width="10" activeColor="pink"/>
+</view>

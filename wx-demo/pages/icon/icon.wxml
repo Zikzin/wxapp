@@ -1,0 +1,9 @@
+<!--pages/icon/icon.wxml-->
+<view class="page">
+    <view>{{title}}</view>
+    <view wx:for="{{icons}}">
+        {{item.type}}
+        <icon type="{{item.type}}" size="{{item.size}}"></icon>
+    </view>
+    <button><icon type="download"></icon>下载</button>
+</view>

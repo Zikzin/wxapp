@@ -1,0 +1,9 @@
+/* pages/scroll-view/scroll-view.wxss */
+.scroll{
+    height:300px;
+    background-color: pink;
+}
+
+.inner{
+    height:500px;
+}

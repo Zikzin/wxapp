@@ -1,0 +1,9 @@
+<!--pages/switch/switch.wxml-->
+<view class="page">
+    <view class="item">
+        振动<switch checked bindchange="change"/>
+    </view>  
+    <view class="item">
+        声音<switch checked bindchange="change"/>
+    </view>
+</view>

@@ -1,0 +1,4 @@
+<!--pages/video/video.wxml-->
+<view class="page">
+    <video src="{{src}}" danmu-list="{{danmuList}}" enable-danmu="true" controls></video>
+</view>

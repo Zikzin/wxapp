@@ -1,0 +1,5 @@
+/* pages/swiper/swiper.wxss */
+image{
+    width: 730rpx;
+    height: 300rpx;
+}
